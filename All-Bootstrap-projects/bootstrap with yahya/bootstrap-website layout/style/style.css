@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: chocolate;
+}
+
+#menu{
+    background-color: aqua;
+}
+
+#menu ul{
+    list-style-type: none;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+#content{
+    background-color: lightcoral;
+}
+
+#sidebar{
+    background-color: lightseagreen;
+}
+
+#sidebar ul{
+    list-style-type: none;
+}
+
+#sidebar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#footer{
+    background-color: lightblue;
+}
+

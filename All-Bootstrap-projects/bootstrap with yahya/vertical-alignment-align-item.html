@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vertical-alignment</title>
+
+     <!-- bootstrap-link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+</head>
+
+<style>
+    .container{
+        border: 5px solid rgb(255, 238, 0);
+    }
+    .row{
+        border: 5px solid black;
+    }
+    .red{
+        font-size: 15px;
+        background-color: red;
+    }
+    .orange{
+        font-size: 20px;
+        background-color: orange;
+    }
+    .blue{
+        font-size: 25px;
+        background-color: blue; 
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row align-items-md-start">
+            <div class="col-sm-3 red ">
+                <h3>start</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam maiores nisi animi laudantium aperiam architecto.
+                </p>
+            </div>
+            <div class="col-md-3 orange">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nemo eum nostrum. Id, dolor praesentium. Sit, id? Sunt, iusto! Repellendus dicta veritatis accusamus magni fuga.
+                </p>
+            </div>
+            <div class="col-md-3 blue">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda pariatur velit placeat eius illum sed est iure doloribus, unde rem eaque a. Voluptates maxime sit tempore voluptatum ullam dignissimos aliquid accusantium iusto reprehenderit officiis!
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row align-items-end mt-5">
+            <div class="col-md-3 red ">
+                <h3>end</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam maiores nisi animi laudantium aperiam architecto.
+                </p>
+            </div>
+            <div class="col-md-3 orange">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nemo eum nostrum. Id, dolor praesentium. Sit, id? Sunt, iusto! Repellendus dicta veritatis accusamus magni fuga.
+                </p>
+            </div>
+            <div class="col-md-3 blue">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda pariatur velit placeat eius illum sed est iure doloribus, unde rem eaque a. Voluptates maxime sit tempore voluptatum ullam dignissimos aliquid accusantium iusto reprehenderit officiis!
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row align-items-md-center mt-5">
+
+            <div class="col-md-3 red ">
+                <h3>center</h3>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam maiores nisi animi laudantium aperiam architecto.
+                </p>
+            </div>
+            <div class="col-md-3 orange">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nemo eum nostrum. Id, dolor praesentium. Sit, id? Sunt, iusto! Repellendus dicta veritatis accusamus magni fuga.
+                </p>
+            </div>
+            <div class="col-sm-3 blue">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda pariatur velit placeat eius illum sed est iure doloribus, unde rem eaque a. Voluptates maxime sit tempore voluptatum ullam dignissimos aliquid accusantium iusto reprehenderit officiis!
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row align-items-baseline mt-5">
+
+            <div class="col-md-3 red ">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam maiores nisi animi laudantium aperiam architecto.
+                </p>
+
+            </div>
+            <div class="col-md-3 orange">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nemo eum nostrum. Id, dolor praesentium. Sit, id? Sunt, iusto! Repellendus dicta veritatis accusamus magni fuga.
+                </p>
+                <h3>baseline</h3>
+
+            </div>
+            <div class="col-md-3 blue">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis assumenda pariatur velit placeat eius illum sed est iure doloribus, unde rem eaque a. Voluptates maxime sit tempore voluptatum ullam dignissimos aliquid accusantium iusto reprehenderit officiis!
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
